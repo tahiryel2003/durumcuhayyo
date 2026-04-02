@@ -2312,7 +2312,7 @@ ul { list-style: none; }
 
 .cpanel-btn {
   flex: 1;
-  min-width: 140px;
+  min-width: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2325,7 +2325,9 @@ ul { list-style: none; }
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   transition: all 0.25s ease;
+  white-space: nowrap;
 }
 
 .cpanel-btn-phone {
