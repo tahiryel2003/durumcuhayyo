@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dürümcü Hayyo — Kütahya'nın en lezzetli dürümcüsü. Günlük taze malzeme, özel Hayyo sosu, hızlı teslimat. WhatsApp ile sipariş ver!" />
+  <meta name="keywords" content="dürümcü, kütahya dürüm, hayyo dürüm, kütahya yemek, tavuk dürüm, et dürüm, sipariş" />
+  <title>Dürümcü Hayyo | Kütahya'nın En Lezzetli Dürümcüsü</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a href="#" class="logo">
+        <span class="logo-icon">🌯</span>
+        <span class="logo-text">DÜRÜMCÜ <strong>HAYYO</strong></span>
+      </a>
+      <nav class="main-nav" id="main-nav">
+        <a href="#bestsellers">En Çok Satanlar</a>
+        <a href="#menu">Menü</a>
+        <a href="#why-us">Neden Biz</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+      <a href="https://wa.me/905551234242?text=Merhaba%2C%20sipari%C5%9F%20vermek%20istiyorum." class="btn btn-header" target="_blank" rel="noopener">
+        Sipariş Ver
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menüyü aç/kapat">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV OVERLAY -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+    <nav class="mobile-nav-links">
+      <a href="#bestsellers">En Çok Satanlar</a>
+      <a href="#campaign">Ustanın Önerisi</a>
+      <a href="#menu">Menü</a>
+      <a href="#why-us">Neden Biz</a>
+      <a href="#reviews">Yorumlar</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+    <a href="https://wa.me/905551234242?text=Merhaba%2C%20sipari%C5%9F%20vermek%20istiyorum." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp ile Sipariş
+    </a>
+  </div>
+
+  <main>
+
+    <!-- 1. HERO -->
+    <section class="hero" id="hero">
+      <!-- Full-screen background food photo -->
+      <div class="hero-bg-image"></div>
+      <!-- Gradient overlay: solid left → transparent right -->
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-inner">
+
+        <!-- Content — LEFT side only, food photo visible on right -->
+        <div class="hero-content hero-animate">
+
+          <h1 class="hero-title">
+            <span class="title-line">HAYYO'NUN</span>
+            <span class="title-line title-line--fire">DÜRÜMÜ</span>
+            <span class="title-line">BİR BAŞKA</span>
+          </h1>
+
+          <p class="hero-sub">
+            Günlük taze malzeme <br />
+            30 dakikada sıcak sıcak kapınızda.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="https://wa.me/905551234242?text=Merhaba%2C%20sipari%C5%9F%20vermek%20istiyorum." class="btn btn-whatsapp btn-xl" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp Sipariş
+            </a>
+            <a href="tel:+905551234242" class="btn btn-phone btn-xl">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 10.9 19.79 19.79 0 01.22 2.27 2 2 0 012.2.22h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.71-1.71a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Hemen Ara
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <strong class="count-up" data-target="300" data-suffix="+">0+</strong>
+              <span>Günlük Müşteri</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <strong class="count-up" data-target="4.5" data-suffix="★" data-decimal="1">0★</strong>
+              <span>Google Puanı</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <strong class="count-up" data-target="30" data-suffix=" dk">0 dk</strong>
+              <span>Teslimat</span>
+            </div>
+          </div>
+
+        </div>
+        <!-- Right half is empty — food photo shows through background -->
+      </div>
+
+    </section>
+
+    <!-- 2. BEST SELLERS -->
+    <section class="section-light bestsellers" id="bestsellers">
+      <div class="container">
+        <div class="bs-header reveal">
+          <span class="bs-eyebrow">
+            <span class="bs-eyebrow-line"></span>
+            En Çok Satanlar
+            <span class="bs-eyebrow-line"></span>
+          </span>
+          <h2 class="bs-title">Herkesin <em>Favorisi</em></h2>
+          <p class="bs-desc">Kütahya'nın damağını fetheden dürümler. Bir kez denersin, hep geri dönersin.</p>
+        </div>
+        <div class="bestseller-grid">
+
+          <article class="food-card featured">
+            <div class="card-img-wrap">
+              <img
+                src="images/bv7r-listing.jpg"
+                alt="Et Tantuni"
+                loading="lazy"
+                class="card-img"
+              />
+              <div class="card-img-overlay"></div>
+              <span class="card-badge">🔥 1 Numara</span>
+              <span class="card-tag">Özel Tarif</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3>Et Tantuni</h3>
+              </div>
+              <p class="card-desc">Dana eti, domates, soğan, maydanoz.</p>
+              <div class="card-ingredients">
+              </div>
+              <a href="https://wa.me/905551234242?text=Merhaba%2C%20Hayyo%20%C3%96zel%20D%C3%BCr%C3%BCm%20sipari%C5%9F%20vermek%20istiyorum." class="btn-card-order" target="_blank" rel="noopener">
+                <span>Sipariş Ver</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="card-img-wrap">
+              <img
+                src="images/tavuk-tantuni-once-haslanir-mi-e2e19fe2-b7c9-458d-915d-e35d18b672c0.avif"
+                alt="Tavuk Tantuni"
+                loading="lazy"
+                class="card-img"
+              />
+              <div class="card-img-overlay"></div>
+              <span class="card-tag">Klasik</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3>Tavuk Tantuni</h3>
+              </div>
+              <p class="card-desc">Tavuk eti, domates, soğan, maydanoz.</p>
+              <div class="card-ingredients">
+              </div>
+              <a href="https://wa.me/905551234242?text=Merhaba%2C%20Et%20D%C3%BCr%C3%BCm%20sipari%C5%9F%20vermek%20istiyorum." class="btn-card-order" target="_blank" rel="noopener">
+                <span>Sipariş Ver</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="card-img-wrap">
+              <img
+                src="images/images.jpg"
+                alt="Yoğurtlu Tantuni"
+                loading="lazy"
+                class="card-img"
+              />
+              <div class="card-img-overlay"></div>
+              <span class="card-tag">Hafif</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3>Yoğurtlu Tantuni</h3>
+              </div>
+              <p class="card-desc">Tavuk eti ya da dana eti, yoğurt, domates, soğan, maydanoz.</p>
+              <div class="card-ingredients">
+              </div>
+              <a href="https://wa.me/905551234242?text=Merhaba%2C%20Tavuk%20D%C3%BCr%C3%BCm%20sipari%C5%9F%20vermek%20istiyorum." class="btn-card-order" target="_blank" rel="noopener">
+                <span>Sipariş Ver</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+        <div class="section-cta reveal">
+          <a href="#menu" class="btn btn-outline">Tüm Menüyü Gör</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. USTA'NIN ÖNERİSİ -->
+    <section class="ustaoneri" id="campaign">
+      <div class="container">
+        <div class="uo-inner reveal">
+
+          <!-- Sol: Görsel -->
+          <div class="uo-visual">
+            <div class="uo-img-wrap">
+              <img src="images/ciğer dürüm.jpg" alt="Ciğer Dürüm — Ustanın Önerisi" loading="lazy" class="uo-img" />
+              <div class="uo-img-badge">
+                <span class="uo-badge-top">Ustanın</span>
+                <span class="uo-badge-main">ÖNERİSİ</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sağ: İçerik -->
+          <div class="uo-content">
+            <div class="uo-eyebrow">
+              <span class="uo-eyebrow-dot"></span>
+               Ustanın Önerisi
+            </div>
+            <h2 class="uo-title">CİĞER<br><em>DÜRÜM</em></h2>
+            <p class="uo-desc">
+              Günlük taze ciğer, domates ve soğan, özel Hayyo baharatlarıyla sarılan ustanın imza lezzeti. Bir kez dene, vazgeçemezsin.
+            </p>
+            <div class="uo-tags">
+              <span class="uo-tag">Günlük Taze Ciğer</span>
+              <span class="uo-tag">Domates ve soğan</span>
+              <span class="uo-tag">Özel Hayyo Baharatı</span>
+              <span class="uo-tag">Lavaş Dürüm</span>
+            </div>
+            <a href="https://wa.me/905551234242?text=Merhaba%2C%20Ci%C4%9Fer%20D%C3%BCr%C3%BCm%20sipari%C5%9Fi%20vermek%20istiyorum." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Hemen Sipariş Ver
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. MENU PREVIEW -->
+    <section class="menu-section" id="menu">
+
+      <!-- Başlık -->
+      <div class="container">
+        <div class="bs-header reveal">
+          <span class="bs-eyebrow">
+            <span class="bs-eyebrow-line"></span>
+            Menü
+            <span class="bs-eyebrow-line"></span>
+          </span>
+          <h2 class="bs-title">Hayyo <em>Menüsü</em></h2>
+          <p class="bs-desc">Taze, sıcak ve hazır. Seçimini yap, geri kalanı bize bırak.</p>
+        </div>
+
+        <!-- Tab navigasyon -->
+        <div class="menu-tabs reveal" role="tablist">
+          <button class="menu-tab active" data-tab="durumler" role="tab">
+            <span class="mtab-emoji">🍽️</span>
+            <span class="mtab-label">Ana Menü</span>
+            <span class="mtab-count">10</span>
+          </button>
+          <button class="menu-tab" data-tab="icecek" role="tab">
+            <span class="mtab-emoji">🥤</span>
+            <span class="mtab-label">İçecekler</span>
+            <span class="mtab-count">6</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Paneller -->
+      <div class="container">
+
+        <div class="menu-panel active" id="tab-durumler" role="tabpanel">
+          <div class="menu-grid">
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/bv7r-listing.jpg" alt="Et Tantuni" loading="lazy">
+                <span class="mc-tag hot">★ Çok Satan</span>
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Et Tantuni</h3>
+                <p class="mc-desc">Dana eti, domates, soğan, maydanoz.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/tavuk-tantuni-once-haslanir-mi-e2e19fe2-b7c9-458d-915d-e35d18b672c0.avif" alt="Tavuk Tantuni" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Tavuk Tantuni</h3>
+                <p class="mc-desc">Tavuk eti, domates, soğan, maydanoz.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/images.jpg" alt="Yoğurtlu Tantuni" loading="lazy">
+
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Yoğurtlu Tantuni</h3>
+                <p class="mc-desc">Tavuk eti ya da dana eti, yoğurt, domates, soğan, maydanoz.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/Adana-Durum.jpg" alt="Adana Dürüm" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Adana Dürüm(ya da ekmek)</h3>
+                <p class="mc-desc">Domates, soğan.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/kuzu şiş.jpg" alt="Kuzu Şiş" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Kuzu Şiş</h3>
+                <p class="mc-desc">Domates, soğan.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/ciğer dürüm.jpg" alt="Ciğer Dürüm" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Ciğer Dürüm(ya da ekmek)</h3>
+                <p class="mc-desc">Domates, soğan.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/köfte dürüm.jpg" alt="Köfte Dürüm" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Köfte Dürüm(ya da ekmek)</h3>
+                <p class="mc-desc">Domates, soğan.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/sucuk dürüm.jpg" alt="Sucuk Dürüm" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Sucuk Dürüm(ya da ekmek)</h3>
+                <p class="mc-desc">Domates, soğan.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/tavuk şiş.jpg" alt="Tavuk Şiş" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Tavuk Şiş</h3>
+                <p class="mc-desc">Domates, soğan.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/tost.jpg" alt="Tost Çeşitleri" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Tost Çeşitleri</h3>
+                <p class="mc-desc">Kaşar, sucuk, salça.</p>
+              </div>
+              <div class="mc-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" id="tab-yan" role="tabpanel" hidden>
+          <div class="menu-grid">
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80&fit=crop&crop=center" alt="Patates Kızartması" loading="lazy">
+                <span class="mc-tag hot">★ Çıtır</span>
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Patates Kızartması</h3>
+                <p class="mc-desc">Taze kızartılmış, sıcak servis</p>
+              </div>
+              <div class="mc-footer">
+                <span class="mc-price">₺40</span>
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=600&q=80&fit=crop&crop=center" alt="Ayran" loading="lazy">
+                <span class="mc-tag">Soğuk</span>
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Ayran</h3>
+                <p class="mc-desc">Ev yapımı taze ayran</p>
+              </div>
+              <div class="mc-footer">
+                <span class="mc-price">₺20</span>
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="https://images.unsplash.com/photo-1598511726623-d2e9996892f0?w=600&q=80&fit=crop&crop=center" alt="Turşu" loading="lazy">
+                <span class="mc-tag">Ev Yapımı</span>
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Turşu</h3>
+                <p class="mc-desc">Karışık turşu</p>
+              </div>
+              <div class="mc-footer">
+                <span class="mc-price">₺15</span>
+              </div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="https://images.unsplash.com/photo-1472476443507-c7f3bfb9c1fd?w=600&q=80&fit=crop&crop=center" alt="Ek Sos" loading="lazy">
+                <span class="mc-tag">Ekstra</span>
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Ek Sos</h3>
+                <p class="mc-desc">Sarımsaklı, acılı veya tzatziki</p>
+              </div>
+              <div class="mc-footer">
+                <span class="mc-price">₺10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" id="tab-icecek" role="tabpanel" hidden>
+          <div class="menu-grid">
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/coca cola.jpeg" alt="Coca Cola" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Coca Cola</h3>
+              </div>
+              <div class="mc-footer"></div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/ayran.jpg" alt="Ayran" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Ayran</h3>
+              </div>
+              <div class="mc-footer"></div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/şalgam.webp" alt="Şalgam" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Şalgam</h3>
+              </div>
+              <div class="mc-footer"></div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/sprite.jpg" alt="Sprite" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Sprite</h3>
+              </div>
+              <div class="mc-footer"></div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/soğuk çay.jpg" alt="Soğuk Çay" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Soğuk Çay</h3>
+              </div>
+              <div class="mc-footer"></div>
+            </div>
+            <div class="menu-card">
+              <div class="mc-img">
+                <img src="images/su11.jpg" alt="Su" loading="lazy">
+              </div>
+              <div class="mc-body">
+                <h3 class="mc-name">Su</h3>
+              </div>
+              <div class="mc-footer"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. WHY CHOOSE US -->
+    <section class="why-us" id="why-us">
+      <div class="container">
+
+        <div class="why-header reveal">
+          <div class="bs-eyebrow" style="justify-content:center;">
+            <span class="bs-eyebrow-line"></span>
+            Neden Biz?
+            <span class="bs-eyebrow-line"></span>
+          </div>
+          <h2 class="why-title">Fark Ettiren <em>Şeyler</em></h2>
+        </div>
+
+        <div class="why-grid">
+
+          <div class="why-card reveal">
+            <div class="why-card-inner">
+              <span class="why-num">01</span>
+              <div class="why-body">
+                <div class="why-icon-wrap">🌿</div>
+                <h3>Günlük Taze</h3>
+                <p>Her sabah taze malzeme hazırlanır. Dondurulmuş hiçbir şey kullanmıyoruz.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-inner">
+              <span class="why-num">02</span>
+              <div class="why-body">
+                <div class="why-icon-wrap">⚡</div>
+                <h3>30 Dakikada Kapıda</h3>
+                <p>Kütahya merkeze hızlı teslimat. Sıcak ve hazır, tam zamanında.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-inner">
+              <span class="why-num">03</span>
+              <div class="why-body">
+                <div class="why-icon-wrap">🏅</div>
+                <h3>10 Yıllık Güven</h3>
+                <p>2015'den beri Kütahya'nın en sevilen dürümcüsüyüz. Şehir bizi tanır.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-inner">
+              <span class="why-num">04</span>
+              <div class="why-body">
+                <div class="why-icon-wrap">👨‍🍳</div>
+                <h3>Usta Eli Lezzeti</h3>
+                <p>Her sipariş özenle hazırlanır; ızgaradan çıkan sıcak lezzet, doğru pişim ve bol malzemeyle servis edilir.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-inner">
+              <span class="why-num">05</span>
+              <div class="why-body">
+                <div class="why-icon-wrap">💬</div>
+                <h3>WhatsApp Sipariş</h3>
+                <p>Uygulama yok, kayıt yok. Sadece WhatsApp ile mesaj at, dürümün yolda.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-card-inner">
+              <span class="why-num">06</span>
+              <div class="why-body">
+                <div class="why-icon-wrap">⭐</div>
+                <h3>4.5 Google Puanı</h3>
+                <p>100'den fazla mutlu müşteri yorumu. Sonuçlar bizi anlatıyor.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. REVIEWS -->
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <div class="reviews-header reveal">
+          <div class="bs-eyebrow" style="justify-content:center;">
+            <span class="bs-eyebrow-line"></span>
+            Müşteri Yorumları
+            <span class="bs-eyebrow-line"></span>
+          </div>
+          <h2 class="reviews-title">Kütahya <em>Konuşuyor</em></h2>
+          <div class="reviews-summary">
+            <div class="rs-score">4.5</div>
+            <div class="rs-right">
+              <div class="rs-stars">
+                <span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span>
+              </div>
+              <p class="rs-label">100+ mutlu müşteri yorumu · Google'da doğrulandı</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MARQUEE — full width, outside container -->
+      <div class="reviews-marquee-wrap reveal">
+
+        <!-- Row 1: scroll left -->
+        <div class="rmarquee rmarquee-fwd">
+          <div class="rmarquee-track">
+            <div class="review-card">
+              <div class="rcard-top">
+                <div class="rcard-stars"><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span></div>
+                <span class="rcard-badge">Google</span>
+              </div>
+              <p class="review-text">"Hayyo özel dürümü inanılmaz lezzetli. O özel sos başka yerde yok, her lokmada tadı farklı. Haftada 3 kez sipariş veriyorum!"</p>
+              <div class="reviewer"><div class="reviewer-avatar">AY</div><div class="reviewer-info"><strong>Ahmet Yılmaz</strong></div></div>
+            </div>
+            <div class="review-card">
+              <div class="rcard-top">
+                <div class="rcard-stars"><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span></div>
+                <span class="rcard-badge">Google</span>
+              </div>
+              <p class="review-text">"Tavuk şiş dürümü çok güzeldi, et tam kıvamında pişmiş. WhatsApp'tan sipariş verdim, 25 dakikada sıcacık kapımdaydı."</p>
+              <div class="reviewer"><div class="reviewer-avatar">ZK</div><div class="reviewer-info"><strong>Zeynep Kaya</strong></div></div>
+            </div>
+            <div class="review-card">
+              <div class="rcard-top">
+                <div class="rcard-stars"><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span></div>
+                <span class="rcard-badge">Google</span>
+              </div>
+              <p class="review-text">"Karışık ızgara dürümünü bir kez dene, bir daha başka yere gidemiyorsun. Her öğle saatinde ofise sipariş veriyoruz."</p>
+              <div class="reviewer"><div class="reviewer-avatar">MC</div><div class="reviewer-info"><strong>Murat Çelik</strong></div></div>
+            </div>
+            <div class="review-card">
+              <div class="rcard-top">
+                <div class="rcard-stars"><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span></div>
+                <span class="rcard-badge">Google</span>
+              </div>
+              <p class="review-text">"Lahmacun dürümünü denedim, maydanoz ve limonla gerçekten harika oluyor. Bu fiyata bu kalite başka yerde yok, inanılmaz."</p>
+              <div class="reviewer"><div class="reviewer-avatar">FD</div><div class="reviewer-info"><strong>Fatma Demir</strong></div></div>
+            </div>
+            <div class="review-card">
+              <div class="rcard-top">
+                <div class="rcard-stars"><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span></div>
+                <span class="rcard-badge">Google</span>
+              </div>
+              <p class="review-text">"Kombo menü süper değer. Dürüm + patates + ayran beraber hem çok doyurucu hem çok lezzetli. Kesinlikle tavsiye ediyorum!"</p>
+              <div class="reviewer"><div class="reviewer-avatar">OK</div><div class="reviewer-info"><strong>Osman Koç</strong></div></div>
+            </div>
+            <div class="review-card">
+              <div class="rcard-top">
+                <div class="rcard-stars"><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span><span class="rs-star filled"></span></div>
+                <span class="rcard-badge">Google</span>
+              </div>
+              <p class="review-text">"Kuzu kavurma dürümü muhteşem, et çok yumuşak ve lezzetli. Her seferinde aynı kalite. Kütahya'nın en iyi dürümcüsü tartışmasız!"</p>
+              <div class="reviewer"><div class="reviewer-avatar">SB</div><div class="reviewer-info"><strong>Selin Bal</strong></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /reviews-marquee-wrap -->
+    </section>
+
+    <!-- 7. CONTACT / LOCATION / HOURS -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+
+        <div class="contact-header reveal">
+          <div class="bs-eyebrow" style="justify-content:center;">
+            <span class="bs-eyebrow-line"></span>
+            Bizi Bulun
+            <span class="bs-eyebrow-line"></span>
+          </div>
+          <h2 class="contact-title">Neredeyiz?</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Info Panel -->
+          <div class="contact-panel reveal">
+
+            <div class="cpanel-block">
+              <div class="cpanel-icon-wrap">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="cpanel-content">
+                <span class="cpanel-label">Adres</span>
+                <p class="cpanel-value">Dürümcü Hayyo<br>Yeni, İlimyolu Sk. No:13<br>43300 Tavşanlı / Kütahya</p>
+              </div>
+            </div>
+
+            <div class="cpanel-divider"></div>
+
+            <div class="cpanel-block">
+              <div class="cpanel-icon-wrap">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="cpanel-content">
+                <div class="cpanel-label-row">
+                  <span class="cpanel-label">Çalışma Saatleri</span>
+                  <span class="open-badge" id="openBadge">● Şu an açık</span>
+                </div>
+                <div class="hours-list">
+                  <div class="hour-row">
+                    <span>Pazartesi</span>
+                    <strong>11:00 – 03:00</strong>
+                  </div>
+                  <div class="hour-row">
+                    <span>Salı</span>
+                    <strong>11:00 – 03:00</strong>
+                  </div>
+                  <div class="hour-row">
+                    <span>Çarşamba</span>
+                    <strong>11:00 – 03:00</strong>
+                  </div>
+                  <div class="hour-row">
+                    <span>Perşembe</span>
+                    <strong>11:00 – 03:00</strong>
+                  </div>
+                  <div class="hour-row">
+                    <span>Cuma</span>
+                    <strong>11:00 – 03:00</strong>
+                  </div>
+                  <div class="hour-row">
+                    <span>Cumartesi</span>
+                    <strong>11:00 – 03:00</strong>
+                  </div>
+                  <div class="hour-row">
+                    <span>Pazar</span>
+                    <strong>11:00 – 03:00</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cpanel-divider"></div>
+
+            <div class="cpanel-actions">
+              <a href="tel:+905551234242" class="cpanel-btn cpanel-btn-phone">
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 10.9 19.79 19.79 0 01.22 2.27 2 2 0 012.2.22h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.71-1.71a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                0274 123 42 42
+              </a>
+              <a href="https://wa.me/905551234242?text=Merhaba%2C%20sipari%C5%9F%20vermek%20istiyorum." class="cpanel-btn cpanel-btn-wa" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp Sipariş
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Map -->
+          <div class="contact-map reveal">
+            <div class="map-embed-wrap">
+              <iframe
+                class="map-embed"
+                title="Dürümcü Hayyo Konumu"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203.7297777249344!2d29.491498618180763!3d39.54326231381745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c974b4bdf5fba1%3A0x8ceaba32783915ab!2zRMO8csO8bWPDvCBIYXl5bw!5e0!3m2!1str!2str!4v1775116979456!5m2!1str!2str"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=39.541945,29.492144%20(D%C3%BCr%C3%BCmc%C3%BC%20Hayyo)" class="map-open-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Google Haritada Aç
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. FINAL CTA -->
+    <section class="final-cta">
+      <div class="final-cta-glow"></div>
+      <div class="container final-cta-inner reveal">
+        <h2 class="final-cta-title">
+          Acıktın mı?<br />
+          <em>Biz Hazırız.</em>
+        </h2>
+        <p class="final-cta-sub">Tek mesaj yeter. Dürümün 30 dakikada kapında.</p>
+        <div class="final-cta-buttons">
+          <a href="https://wa.me/905551234242?text=Merhaba%2C%20sipari%C5%9F%20vermek%20istiyorum." class="btn btn-whatsapp btn-xl" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Sipariş
+          </a>
+          <a href="tel:+905551234242" class="btn btn-phone btn-xl">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 10.9 19.79 19.79 0 01.22 2.27 2 2 0 012.2.22h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.71-1.71a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Telefon ile Ara
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer-bar">
+    <div class="container">
+
+      <!-- Top row -->
+      <div class="footer-top">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">🌯 Dürümcü Hayyo</div>
+          <p class="footer-tagline">Kütahya'nın en sıcak dürümcüsü.<br>Taze malzeme, hızlı teslimat.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/durumcuhayyo/" class="fsocial-btn" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/905551234242" class="fsocial-btn fsocial-wa" aria-label="WhatsApp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Menü</h4>
+          <ul class="footer-links">
+            <li><a href="#bestsellers">En Çok Satanlar</a></li>
+            <li><a href="#campaign">Ustanın Önerisi</a></li>
+            <li><a href="#menu">Tüm Menü</a></li>
+          </ul>
+        </div>
+
+        <!-- Info -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Bilgi</h4>
+          <ul class="footer-links">
+            <li><a href="#why-us">Neden Biz</a></li>
+            <li><a href="#reviews">Yorumlar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">İletişim</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Dürümcü Hayyo Yeni, İlimyolu Sk. No:13 43300 Tavşanlı / Kütahya
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 10.9 19.79 19.79 0 01.22 2.27 2 2 0 012.2.22h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.71-1.71a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              0274 123 42 42
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Her gün 11:00 – 03:00
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Divider -->
+      <div class="footer-divider"></div>
+
+      <!-- Bottom row -->
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Dürümcü Hayyo. Tüm hakları saklıdır.</p>
+        <a href="#hero" class="footer-totop" aria-label="Başa dön">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/905551234242?text=Merhaba%2C%20sipari%C5%9F%20vermek%20istiyorum." class="float-wa" target="_blank" rel="noopener" aria-label="WhatsApp ile sipariş ver">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="float-wa-text">Sipariş Ver</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
