@@ -3237,7 +3237,7 @@ ul { list-style: none; }
 @media (max-width: 639px) {
   .hero::before { display: none; }
   .hero .container { padding-inline: 1.25rem; }
-  .hero-bg-image { background-position: 72% center; }
+  .hero-bg-image { background-position: 95% center; }
   .hero-overlay {
     background: linear-gradient(
       160deg,
