@@ -69,7 +69,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  background: #fff;
+  background: var(--clr-dark);
   color: var(--clr-text-light);
   line-height: 1.6;
   overflow-x: hidden;
